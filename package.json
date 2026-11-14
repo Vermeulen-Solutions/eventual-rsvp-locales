@@ -5,11 +5,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vermeulen-Solutions/eventual-locales.git"
+    "url": "git+https://github.com/Vermeulen-Solutions/eventual-rsvp-locales.git"
   },
   "homepage": "https://eventual.rsvp/",
   "bugs": {
-    "url": "https://github.com/Vermeulen-Solutions/eventual-locales/issues"
+    "url": "https://github.com/Vermeulen-Solutions/eventual-rsvp-locales/issues"
   },
   "type": "module",
   "engines": {
