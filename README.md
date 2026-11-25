@@ -27,6 +27,7 @@ Site components (Astro) and host code import catalogs from this package directly
 | Namespace | Used by | Format |
 |---|---|---|
 | `core` | Eventual RSVP – Core admin and editor | English text → translation (`textTranslator`) |
+| `core-site` | Core's event pages: `EventBrowser`, `EventDetail` | dotted key → ICU message (`bindMessages`) |
 | `tickets` | Tickets admin and emails | dotted key → ICU message |
 | `tickets-form` | `TicketCheckout`, `TicketOrder`, `TicketCheckin` | dotted key → message with plain `{name}` placeholders |
 | `attendance` | Attendance admin and emails | dotted key → ICU message |
@@ -46,7 +47,7 @@ node scripts/check.mjs   # coverage per language; errors for unknown placeholder
 npm run manifest         # rehash catalogs after editing them
 ```
 
-`en.json` in each namespace is extracted from the plugin source with each plugin's `scripts/i18n-extract.mjs`. Never edit `en.json` by hand. After you change catalogs, run `npm run manifest`, publish a new version, and run `npm run build` in each plugin, which re-runs `i18n:pack`. The pinned version and hashes only change when a plugin is rebuilt, so a published plugin release always fetches exactly the catalogs it was tested with.
+`en.json` in each namespace is extracted from the plugin source with each plugin's `scripts/i18n-extract.mjs` (Core's event pages: `scripts/i18n-extract-site.mjs`). Never edit `en.json` by hand. After you change catalogs, run `npm run manifest`, publish a new version, and run `npm run build` in each plugin, which re-runs `i18n:pack`. The pinned version and hashes only change when a plugin is rebuilt, so a published plugin release always fetches exactly the catalogs it was tested with.
 
 `.gitattributes` forces LF line endings so the hashes are the same on every platform.
 

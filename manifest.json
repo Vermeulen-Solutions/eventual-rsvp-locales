@@ -1,6 +1,6 @@
 {
   "package": "@vermeulen.solutions/eventual-locales",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "namespaces": {
     "attendance": {
       "ar": "c8c632bd3d530336d7aa6345dcd6f008a5a41a62a281fe4c36effacd210dcde4",
@@ -67,6 +67,28 @@
       "tr": "b87dc6a543cd20df739c3de1355c5317dd15477bc408564b82967cf488dcb288",
       "uk": "8e748f38c3cf5d7ab646f70b07d73a2dc95786e04d6ce700ea85a0eab8128235",
       "zh-CN": "96dbafdbfeda5eff93d05645156232019fc616917301199c738d3af9b45bf5af"
+    },
+    "core-site": {
+      "ar": "f554f9e051bbcfb498ce2507ee5db9acd158d73406dd4ab09418f5959af52267",
+      "cs": "80bcf73c2da849c892645b002027f9e2e5413fe14bfdab0a57332d59528424ff",
+      "da": "442d575bc8f7f5e1711618e8ba7be235b15c42c47f02e70fa93397b3f6aa49ae",
+      "de": "6f4abe6fe83739b3182dbada44be361fa6ee8646da146ecf95195ef63792ca0d",
+      "es": "14fff8402408022e762effb1a7f29849e16cf39daec1825acba36dec9e8d1f55",
+      "fi": "b2a493498b97e7ae67d1e854cb340d55e4fb772d75c76dd9f828e51f24f91656",
+      "fr": "a243f47589b11eaa84f0291311dda06c0303adb07d8f3d5159a6a7f14ff100cd",
+      "he": "003ef41e2a413c9c852b912b8d4ce30c3188a45fc8fc41adaee6a888df670b7e",
+      "it": "3747925ee37291a6c5af50092bc01e9fb6244ee55077b44284b728107c67be30",
+      "ja": "d00eba8c0cd5f207b10245de7d86b7168e984add18b46fae88e69d0a528089ee",
+      "ko": "b6840b23313dc536d4bac39ae134e8a8702a99576d227c541c1ab9c69aeecf19",
+      "nb": "f7aa511153712d23898d354c5d9db9b7ef05383377f866d9401711e8dbc67735",
+      "nl": "1ae7bcca4dcd552a62c685a00e828157f1ac82bb6d5c9fcdaa19f33aed74e72a",
+      "pl": "8beb135c3554716abc7c4320dd87438ecf208c4ea91c52f878b2171388bb7367",
+      "pt-BR": "62b184e185dcce9439d64b1499bf0be2258b1a12f10bf6ac423c3bf7213c8e1d",
+      "pt": "5a13b4fa84501cb4f3006be2712620b9858ddf87f2da6c74c1bda2b3c630bcbc",
+      "sv": "22e032fd0920836d07c6a85c3e73fcd0507e257e992848984e8f2b256a55087f",
+      "tr": "53c3238de2ab4e48ba5444b5a641f1384fbc640d9dcf01c47680aaf584f50027",
+      "uk": "cf95ece7c874ced141b53ccb23a1db56f3015b4ac2704f683ef90767c85d834a",
+      "zh-CN": "ac0e2b2495be72106227bba38411ec372be5872d1bcd1efba22698fae3c8b4e7"
     },
     "tickets": {
       "ar": "ece792e34ec1335b3444703b629a7d1293057c79f704336116694d478c9402fc",
